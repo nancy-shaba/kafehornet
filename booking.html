@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boka bord – Kafé Hörnet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Kafé Hörnet</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="booking.html" aria-current="page">Boka bord</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Boka bord</h1>
+      <p>
+        Fyll i formuläret så bekräftar vi via e-post inom en timme under
+        öppettid. Sällskap över 8 personer: ring oss.
+      </p>
+      <div>
+        <form>
+          <p>
+            <label for="name">Namn</label>
+            <input type="text" id="name" required />
+          </p>
+          <p>
+            <label for="email">E-post</label>
+            <input type="email" id="email" required />
+          </p>
+          <p>
+            <label for="date">Datum</label>
+            <input type="date" id="date" required />
+          </p>
+          <p>
+            <label for="time">Tid</label>
+            <select id="time">
+              <option>09:00</option>
+              <option>10:00</option>
+              <option>11:00</option>
+              <option>12:00</option>
+              <option>13:00</option>
+              <option>14:00</option>
+              <option>15:00</option>
+              <option>16:00</option>
+            </select>
+          </p>
+          <p>
+            <label for="count">Antal personer</label>
+            <input type="number" id="count" min="1" max="8" required />
+          </p>
+          <p>
+            <label for="message">Meddelande (frivilligt)</label>
+            <textarea id="message" rows="4"></textarea>
+          </p>
+          <p>
+            <button>Skicka bokning</button>
+          </p>
+        </form>
+        <aside>
+          <h2>Bra att veta</h2>
+          <ul>
+            <li>Bordet hålls i 15 minuter efter bokad tid.</li>
+            <li>Vi har barnstolar och plats för barnvagn.</li>
+            <li>Hundar är välkomna på uteserveringen.</li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h2>Hitta hit</h2>
+        <p>
+          Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets
+          tunnelbana.
+        </p>
+      </div>
+      <div>
+        <h2>Öppettider</h2>
+        <p>Måndag–fredag 07.30–18.00. Lördag–söndag 09.00–17.00.</p>
+      </div>
+      <div>
+        <h2>Kontakt</h2>
+        <p>
+          <a href="mailto:hej@kafehornet.example">hej@kafehornet.example</a
+          ><br />
+          <a href="tel:0812345678">08-123 456 78</a>
+        </p>
+      </div>
+      <p>© Kafé Hörnet 2026</p>
+    </footer>
+  </body>
+</html>
