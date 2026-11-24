@@ -1,0 +1,35 @@
+/* Kafé Hörnet: färger och typsnitt */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #2b2118;
+  background-color: #fbf7f2;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+  line-height: 1.2;
+}
+
+a {
+  color: #b5502b;
+}
+header,
+main,
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  margin-bottom: 48px;
+}
